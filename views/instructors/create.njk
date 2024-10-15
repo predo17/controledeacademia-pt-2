@@ -1,0 +1,18 @@
+{% extends "layout.njk" %}
+
+{% block content  %}
+
+<form class="card" method="post" action="/instructors">
+    <section class="avatar" style="background: url('https://th.bing.com/th/id/R.bc1d7426a8e9dde44193b11af877e240?rik=QERPDXsnXQfxGg&riu=http%3a%2f%2fwww.acquaville.com.br%2faulas-de-ginastica%2fimagens%2facademia-de-musculacao-completa.jpg&ehk=60PXzLDV5wzuTHMW%2bhso5dUpa2Li4Rnbm0OoCRexEWk%3d&risl=&pid=ImgRaw&r=0g/') no-repeat center center / cover ">       
+    </section>
+    <section class="details">
+
+        <h3>Novo Instrutor </h3>
+        {% include 'instructors/fields.njk'%}
+        
+        <button type="submit"> Enviar</button>
+
+    </section>
+</form>
+
+{%  endblock  content  %}

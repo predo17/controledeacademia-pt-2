@@ -1,0 +1,28 @@
+{
+  "instructors": [
+    {
+      "name": "Pedro Henrique Ferreira",
+      "avatar_URL": "https://avatars.githubusercontent.com/u/150456318?v=4&size=64",
+      "birth": 1148601600000,
+      "gender": "Masculino",
+      "services": "todo",
+      "id": "1"
+    },
+    {
+      "name": "Atayd",
+      "avatar_URL": "https:// www.www",
+      "birth": 1182816000000,
+      "gender": "Masculino",
+      "services": "eu sei lá!!!",
+      "id": "2"
+    },
+    {
+      "name": "Otaro",
+      "avatar_URL": "https:// ww.www",
+      "birth": 1078012800000,
+      "gender": "Outros",
+      "services": "Antropofia",
+      "id": "3"
+    }
+  ]
+}
